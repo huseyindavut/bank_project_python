@@ -9,7 +9,7 @@ if (operasjon == "+"):
     
 elif (operasjon == "-"):
     if num1 < num2:
-        print("num1 må større en sum2")
+        print("num1 må være større en sum2")
         
     else: 
      resultat = num1 - num2
@@ -26,7 +26,7 @@ elif (operasjon == "/"):
      resultat = num1 / num2
      
 else:
-    print ("Det gjelder ikke")  
+    print ("Det funker ikke")  
    
 if resultat is not None:
  print(f"Resultat: {resultat}")
